@@ -216,3 +216,15 @@ main .main-section .right div:last-child {
   width: 100%;
   font-size: var(--paragraph-font-size);
 }
+/* for scrollbar */
+::-webkit-scrollbar {
+  width: 0.4rem;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--Off-white);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--Soft-red);
+}
